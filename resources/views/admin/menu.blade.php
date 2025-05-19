@@ -46,7 +46,7 @@ $config = Config::first();
                 <div data-i18n="Analytics">จัดการโต้ะ</div>
             </a>
         </li> -->
-        <li class="menu-header small text-uppercase"><span class="menu-header-text">คอร์สเรียน</span></li>
+        <li class="menu-header small text-uppercase"><span class="menu-header-text">แพ็กเกจ</span></li>
         <li class="menu-item {{ ($function_key == 'category') ? 'active' : '' }}">
             <a href="{{route('category')}}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-collection"></i>
@@ -56,7 +56,7 @@ $config = Config::first();
         <li class="menu-item {{ ($function_key == 'menu') ? 'active' : '' }}">
             <a href="{{route('menu')}}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-food-menu"></i>
-                <div data-i18n="Basic">คอร์สเรียน</div>
+                <div data-i18n="Basic">แพ็กเกจ</div>
             </a>
         </li>
         <li class="menu-item {{ ($function_key == 'preview') ? 'active' : '' }}">

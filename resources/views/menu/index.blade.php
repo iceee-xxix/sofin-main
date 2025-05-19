@@ -9,15 +9,15 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-header d-flex justify-content-end">
-                        <a href="{{route('MenuCreate')}}" class="btn btn-sm btn-outline-success" style="font-size:14px">เพิ่มคอร์สเรียน&nbsp;<i class="bx bxs-plus-circle"></i></a>
+                        <a href="{{route('MenuCreate')}}" class="btn btn-sm btn-outline-success" style="font-size:14px">เพิ่มแพ็กเกจ&nbsp;<i class="bx bxs-plus-circle"></i></a>
                     </div>
                     <div class="card-body">
                         <table id="myTable" class="display" style="width:100%">
                             <thead>
                                 <tr>
-                                    <th>คอร์สเรียน</th>
+                                    <th>แพ็กเกจ</th>
                                     <th class="text-center">หมวดหมู่</th>
-                                    <th class="text-center">กำหนดราคาคอร์ส</th>
+                                    <th class="text-center">กำหนดราคาแพ็กเกจ</th>
                                     <th class="text-center">จัดการ</th>
                                 </tr>
                             </thead>

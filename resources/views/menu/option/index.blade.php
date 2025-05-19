@@ -14,7 +14,7 @@
                                 {{$info->name}}
                             </div>
                             <div class="col-auto">
-                                <a href="{{route('menulistOptionCreate',$id)}}" class="btn btn-sm btn-outline-success d-flex align-items-center" style="font-size:14px">เพิ่มราคาคอร์สเรียน&nbsp;<i class="bx bxs-plus-circle"></i></a>
+                                <a href="{{route('menulistOptionCreate',$id)}}" class="btn btn-sm btn-outline-success d-flex align-items-center" style="font-size:14px">เพิ่มราคาแพ็กเกจ&nbsp;<i class="bx bxs-plus-circle"></i></a>
                             </div>
                         </div>
                     </div>
@@ -22,7 +22,7 @@
                         <table id="myTable" class="display" style="width:100%">
                             <thead>
                                 <tr>
-                                    <th>ระดับราคาคอร์สเรียน</th>
+                                    <th>ระดับราคาแพ็กเกจ</th>
                                     <th class="text-center">ราคา</th>
                                     <!-- <th class="text-center">กำหนดสต็อก</th> -->
                                     <th class="text-center">จัดการ</th>

@@ -12,13 +12,13 @@
                             @csrf
                             <div class="card">
                                 <div class="card-header">
-                                    แก้ไขราคาคอร์สเรียน
+                                    แก้ไขราคาแพ็กเกจ
                                     <hr>
                                 </div>
                                 <div class="card-body">
                                     <div class="row g-3 mb-3">
                                         <div class="col-md-12">
-                                            <label for="name" class="form-label">ระดับราคาคอร์สเรียน : </label>
+                                            <label for="name" class="form-label">ระดับราคาแพ็กเกจ : </label>
                                             <input type="text" class="form-control" id="name" name="name" placeholder="เช่น ธรรมดา พิเศษ" value="{{ old('type', $info->type) }}" required>
                                         </div>
                                     </div>

@@ -1,6 +1,6 @@
 @extends('layouts.delivery')
 
-@section('title', 'พรีวิวคอร์สเรียน')
+@section('title', 'พรีวิวแพ็กเกจ')
 
 @section('content')
 <?php

@@ -78,7 +78,7 @@ $config = Config::first();
         <h2 class="mb-4">ชำระเงิน</h2>
         <div class="card w-100 mb-3">
             <div class="card-header bg-primary text-white">
-                <strong>คอร์สเรียนของคุณ</strong>
+                <strong>แพ็กเกจของคุณ</strong>
             </div>
             <div class="card-body">
                 @if($orderlist)
@@ -105,7 +105,7 @@ $config = Config::first();
 
                 @if(!$orderlist)
                 <div class="text-center text-muted my-4">
-                    ไม่มีรายการคอร์สเรียนที่สั่ง
+                    ไม่มีรายการแพ็กเกจที่สั่ง
                 </div>
                 @endif
             </div>

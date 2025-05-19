@@ -77,7 +77,7 @@ $config = Config::first();
         <div class="bg-white px-2 pt-3 shadow-lg d-flex flex-column aling-items-center justify-content-center"
             style="border-radius: 10px;">
             <div class="title-list-buy">
-                คอร์สเรียนที่เลือก
+                แพ็กเกจที่เลือก
             </div>
             <div id="order-summary" class="mt-2"></div>
             <div class="fw-bold fs-5 mt-5 " style="border-top:2px solid #7e7e7e; margin-bottom:-10px;">

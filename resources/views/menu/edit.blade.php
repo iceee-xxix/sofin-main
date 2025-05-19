@@ -12,19 +12,19 @@
                             @csrf
                             <div class="card">
                                 <div class="card-header">
-                                    แก้ไขคอร์สเรียน
+                                    แก้ไขแพ็กเกจ
                                     <hr>
                                 </div>
                                 <div class="card-body">
                                     <div class="row g-3 mb-3">
                                         <div class="col-md-12">
-                                            <label for="name" class="form-label">ชื่อคอร์สเรียน : </label>
+                                            <label for="name" class="form-label">ชื่อแพ็กเกจ : </label>
                                             <input type="text" class="form-control" id="name" name="name" required value="{{ old('name', $info->name) }}">
                                         </div>
                                     </div>
                                     <div class="row g-3 mb-3">
                                         <div class="col-md-12">
-                                            <label for="name" class="form-label">หมวดหมู่คอร์สเรียน : </label>
+                                            <label for="name" class="form-label">หมวดหมู่แพ็กเกจ : </label>
                                             <select class="form-control" name="categories_id" id="categories_id" required>
                                                 <option value="" disabled>เลือกหมวดหมู่</option>
                                                 @foreach($category as $categories)
@@ -41,7 +41,7 @@
                                     </div>
                                     <div class="row g-3 mb-3">
                                         <div class="col-md-12">
-                                            <label for="file" class="form-label">รูปภาพคอร์สเรียน : </label>
+                                            <label for="file" class="form-label">รูปภาพแพ็กเกจ : </label>
                                             <div class="input-group mb-3">
                                                 <input class="form-control" type="file" id="file" name="file">
                                                 <a href="{{($info['files']) ? url('storage/'.$info['files']->file) : 'javascript:void(0);'}}"

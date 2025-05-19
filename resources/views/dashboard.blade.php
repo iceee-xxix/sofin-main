@@ -56,7 +56,7 @@
                                         <img src="{{asset('assets/img/icons/unicons/chart-success.png')}}" alt="chart success" class="rounded" />
                                     </div>
                                 </div>
-                                <span class="fw-semibold d-block mb-1">คอร์สทั้งหมด</span>
+                                <span class="fw-semibold d-block mb-1">แพ็กเกจทั้งหมด</span>
                                 <h3 class="card-title mb-2">{{$ordertotal}} รายการ</h3>
                             </div>
                         </div>
@@ -66,7 +66,7 @@
             <div class="col-lg-6 col-md-12 order-2 mb-4">
                 <div class="card">
                     <div class="card-header">
-                        <h6>สถิติคอร์สขายดี</h6>
+                        <h6>สถิติแพ็กเกจขายดี</h6>
                         <hr>
                     </div>
                     <div class="card-body">
@@ -93,7 +93,7 @@
             <div class="col-lg-12 col-md-12 order-3">
                 <div class="card">
                     <div class="card-header">
-                        <h6>รายการคอร์สทั้งหมด</h6>
+                        <h6>รายการแพ็กเกจทั้งหมด</h6>
                         <hr>
                     </div>
                     <div class="card-body">
@@ -124,7 +124,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">รายละเอียดคอร์สเรียน</h5>
+                <h5 class="modal-title">รายละเอียดแพ็กเกจ</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body" id="body-html">

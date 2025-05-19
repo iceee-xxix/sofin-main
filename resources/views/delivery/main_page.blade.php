@@ -116,7 +116,7 @@ $config = Config::first();
                 </div>
             </div> -->
         <div class="title-food">
-            คอร์สเรียน
+            แพ็กเกจ
         </div>
         <div class="row py-2">
             <div class="d-flex flex-nowrap px-2 scroll-hidden" style="gap: 5px;">

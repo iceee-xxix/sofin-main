@@ -71,11 +71,11 @@ $config = Config::first();
 </style>
 <div class="container my-4">
     <div class="d-flex flex-column align-items-center">
-        <h2 class="mb-4">🛒 รายการคอร์สเรียนที่สั่งซื้อ</h2>
+        <h2 class="mb-4">🛒 รายการแพ็กเกจที่สั่งซื้อ</h2>
 
         <div class="card w-100 shadow-sm">
             <div class="card-header bg-primary text-white">
-                <strong>คอร์สเรียนของคุณ</strong>
+                <strong>แพ็กเกจของคุณ</strong>
             </div>
             <div class="card-body">
                 <div class="list-group">
@@ -119,7 +119,7 @@ $config = Config::first();
 
                 @if($orderlist->isEmpty())
                 <div class="text-center text-muted my-4">
-                    ไม่มีรายการคอร์สเรียนที่สั่ง
+                    ไม่มีรายการแพ็กเกจที่สั่ง
                 </div>
                 @endif
             </div>
